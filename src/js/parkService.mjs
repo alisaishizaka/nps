@@ -182,6 +182,3 @@ const park = {
 export function getParkData() {
   return park;
 }
-
-import { getParkData } from './parkService.mjs';
-const parkData = getParkData();
