@@ -19,3 +19,6 @@ Use this as a starting point to complete the WDD 231 personal activity. We will 
 
 ## Netlify Link
 - https://luxury-rugelach-69fe33.netlify.app/
+
+## VS Code Local Link
+- http://localhost:5173/
