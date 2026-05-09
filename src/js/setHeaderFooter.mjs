@@ -1,6 +1,5 @@
 import { parkInfoTemplate, footerTemplate } from "./templates.mjs";
-
-function setHeaderInfo(data) {
+export function setHeaderInfo(data) {
   // insert data into disclaimer section
   const disclaimer = document.querySelector(".disclaimer > a");
   disclaimer.href = data.url;
@@ -14,7 +13,7 @@ function setHeaderInfo(data) {
     parkInfoTemplate(data);
 }
 
-function setFooter(data) {
+export function setFooter(data) {
   const footerEl = document.querySelector("#park-footer");
   footerEl.insertAdjacentHTML("afterbegin", footerTemplate(data));
 }
@@ -23,3 +22,4 @@ export default function setHeaderFooter(parkData) {
   setHeaderInfo(parkData);
   setFooter(parkData);
 }
+

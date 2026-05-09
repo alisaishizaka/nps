@@ -15,11 +15,11 @@ export function mediaCardTemplate(info) {
    <p>${info.description}</p>
      </div>`;
 }
-function getMailingAddress(addresses) {
+export function getMailingAddress(addresses) {
   const mailing = addresses.find((address) => address.type === "Mailing");
   return mailing;
 }
-function getVoicePhone(numbers) {
+export function getVoicePhone(numbers) {
   const voice = numbers.find((number) => number.type === "Voice");
   return voice.phoneNumber;
 }
