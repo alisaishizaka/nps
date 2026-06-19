@@ -244,7 +244,7 @@
   }
 
   .global-nav__split-button {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: none;
     padding: 1rem;
   }
 
@@ -261,6 +261,10 @@
   .global-nav__section-heading.section-heading--green,
   .global-nav__section-heading.section-heading--blue,
   .global-nav__list:first-of-type {
+    display: none;
+  }
+
+  .global-nav__split-button__toggle {
     display: none;
   }
 }
