@@ -1,3 +1,5 @@
+import spritePath from "../images/sprite.symbol.svg";
+
 export function parkInfoTemplate(info) {
   return `<a href="/" class="hero-banner__title">${info.name}</a>
     <p class="hero-banner__subtitle">

@@ -36,3 +36,31 @@
   line-height: 1.5;
   color: var(--bs-grey-2);
 }
+
+.park-footer {
+  padding: 2rem 1rem;
+  background-color: #f8f8f8;
+  color: var(--bs-body-color);
+}
+
+.park-footer .contact {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.park-footer h3 {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.park-footer h4 {
+  margin: 1rem 0 0.4rem;
+  font-size: 0.95rem;
+}
+
+.park-footer p {
+  margin: 0.25rem 0;
+  line-height: 1.6;
+}

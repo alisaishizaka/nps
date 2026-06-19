@@ -35,10 +35,33 @@ main {
 
 /* visitor styles */
 
-.visitor > details > ul {
+.visitor > details > ul,
+.activities > details > ul {
   list-style: none;
-  padding: 0;
+  padding: 0.75rem 0 0 0;
+  margin: 0;
 }
-.visitor > details li {
+
+.visitor > details li,
+.activities > details li {
   border-bottom: 1px solid var(--bs-grey-3);
+  padding: 0.75rem 0;
+}
+
+.visitor > details,
+.activities > details {
+  border: 1px solid #000;
+  border-radius: 0;
+  padding: 0.75rem;
+}
+
+.visitor > details summary,
+.activities > details summary {
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.activities > details li:last-child,
+.visitor > details li:last-child {
+  border-bottom: none;
 }
